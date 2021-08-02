@@ -1,0 +1,80 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.App{
+  text-align: center;
+  margin-top: 100px;
+}
+.card{
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 19px 5px 55px -6px rgba(0,0,0,0.66);
+-webkit-box-shadow: 19px 5px 55px -6px rgba(0,0,0,0.66);
+-moz-box-shadow: 19px 5px 55px -6px rgba(0,0,0,0.66);
+background: rgb(0,244,229);
+background: linear-gradient(90deg, rgba(0,244,229,0.7066176812521884) 28%, rgba(160,69,252,0.3452731434370623) 100%);
+}
+.form{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+
+}
+.form input{
+  padding: 0% 10px;
+  }
+.form button{
+  margin-left: 10px;
+}
+
+.weather{
+  text-align: center;
+}
+.additional{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  font-weight: bolder;
+  
+}
+.humidity{
+  margin-left: 1rem;
+}
+.wind_direction{
+  margin-left: 1rem;
+}
+.card .temp{
+  font-weight: bolder;
+  font-weight: 500;
+  font-size: xxx-large;
+}
+.card img{
+  width: 30%;
+  margin-top: 20px;
+}
+.card .desc{
+  font-style: italic;
+  font-weight: 400;
+  font-size: x-large;
+}
+.area{
+  font-style: italic;
+  font-weight: 400;
+}
+.title{
+  margin-bottom: 30px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 37px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: underline solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  
+}
